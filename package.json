@@ -1,0 +1,36 @@
+{
+  "name": "care-simplify",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --target care-simplify --public-url ./"
+  },
+  "version": "1.0.0",
+  "description": "Care Simplify is an intelligent platform that leverages machine learning to analyze patient reports, providing simplified and human-understandable summaries. It enables users to upload reports and interact through a chat interface to gain deeper insights, ensuring clarity and informed care decisions.",
+  "author": "Gunjan",
+  "license": "MIT",
+  "dependencies": {
+    "@react-pdf-viewer/core": "3.6.0",
+    "@react-pdf-viewer/default-layout": "3.6.0",
+    "axios": "^1.7.8",
+    "ldrs": "^1.0.2",
+    "pdfjs-dist": "2.15.349",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "svgo": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "^2.13.2",
+    "postcss": "^8.4.49",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.15"
+  },
+  "targets": {
+    "care-simplify": {
+      "source": "index.html",
+      "distDir": "./dist"
+    }
+  }
+}
